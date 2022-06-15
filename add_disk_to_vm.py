@@ -1,17 +1,6 @@
 #!/usr/bin/env python
 """
-Written by Dann Bohn
-Github: https://github.com/whereismyjetpack
-Email: dannbohn@gmail.com
 
-Script to add a Hard disk to an existing VM
-This is for demonstration purposes only.
-I did not do a whole lot of sanity checking, etc.
-
-Known issues:
-This will not add more than 15 disks to a VM
-To do that the VM needs an additional scsi controller
-and I have not yet worked through that
 """
 from pyVmomi import vim
 from pyVim.task import WaitForTask
